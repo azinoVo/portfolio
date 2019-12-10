@@ -4,11 +4,10 @@ import './Nav.css'
 const Nav = () => {
     return (
         <header className='navigation'>
-            <a href="">NV</a>
+            <h1>Nguyen Vo</h1>
             <ul>
-                <li>Profile</li>
-                <li>Tech Stack</li>
-                <li>Projects</li>
+                <li><a href="#techWrapper">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
 
         </header>
