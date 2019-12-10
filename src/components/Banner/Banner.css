@@ -1,5 +1,6 @@
 .banner {
     background-color: lightblue;
+    padding:2%;
 }
 
 .banner img {
@@ -12,9 +13,11 @@
 .banner .name {
     font-size: 2rem;
     text-align:center;
+    padding: 1%;
 }
 
 .banner .role {
     font-size: 1.5rem;
     text-align: center;
+    padding: 0.5%;
 }
