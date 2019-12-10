@@ -1,0 +1,20 @@
+.banner {
+    background-color: lightblue;
+}
+
+.banner img {
+    border-radius: 100%;
+    width:20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner .name {
+    font-size: 2rem;
+    text-align:center;
+}
+
+.banner .role {
+    font-size: 1.5rem;
+    text-align: center;
+}
