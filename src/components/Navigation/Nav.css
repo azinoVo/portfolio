@@ -1,14 +1,20 @@
-.navigation {
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-}
-
-.navigation a {
-    text-decoration:none;
-}
-
-
-ul li {
+.navWrapper ul li {
     list-style:none;
+    border:1px solid black;
+    border-radius:50%;
+    padding:3%;
+    background-color: white;
+    cursor:pointer;
+    font-size:2rem;
 }
+
+.navWrapper ul li:hover {
+    background-color:black;
+    color:lightblue;
+}
+
+.navWrapper ul {
+    display:flex;
+    justify-content: space-evenly;
+}
+

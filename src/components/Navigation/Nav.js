@@ -3,14 +3,14 @@ import './Nav.css'
 
 const Nav = () => {
     return (
-        <header className='navigation'>
-            <h1>Nguyen Vo</h1>
+        <nav className='navWrapper'>
             <ul>
-                <li><a href="#techWrapper">Tech Stack</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li>Profile</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Hobbies</li>
             </ul>
-
-        </header>
+        </nav>
     );
 }
 
