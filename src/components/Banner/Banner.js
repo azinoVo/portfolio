@@ -6,11 +6,15 @@ import Contacts from '../Contacts/Contacts'
 
 const Banner = () => {
     return (
-        <header className='banner'>
-            <img src={picture} alt="Nguyen Vo"/>
-            <Contacts />
-            <div className='name'>Nguyen Vo</div>
-            <div className='role'>Full Stack Web Developer from New Orleans, LA</div>
+        <header className='banner-wrapper'>
+            <div className='banner'>
+                <img src={picture} alt="Nguyen Vo"/>
+                <div className='description'>
+                    <h1 id='name'>Nguyen Vo</h1>
+                    <p>Full Stack Web Developer from New Orleans, LA</p>
+                    <Contacts />
+                </div>
+            </div>
         </header>
     );
 }

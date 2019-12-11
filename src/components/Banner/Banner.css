@@ -1,22 +1,22 @@
-.banner {
+.banner-wrapper {
     padding:1%;
+}
+
+.banner {
+    width:50%;
+    margin:0 auto;
+    display:flex;
 }
 
 .banner img {
     border-radius: 100%;
-    width:12%;
-    display: block;
-    margin: 0 auto;
+    width:25%;
+    margin-right: 5%;
 }
 
-.banner .name {
-    font-size: 3rem;
-    text-align:center;
-    padding: 1%;
+.banner .description h1 {
+    font-size:2.5rem;
 }
-
-.banner .role {
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 0.25%;
+.banner .description p {
+    font-size:1.75rem;
 }
