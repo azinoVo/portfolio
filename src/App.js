@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import Nav from './components/Navigation/Nav'
+// import Nav from './components/Navigation/Nav'
 import Banner from './components/Banner/Banner';
+import Projects from './components/Projects/Projects';
+import TechStack from './components/TechStack/TechStack';
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <Nav />
+      {/* <Nav /> */}
+      <TechStack />
+      <Projects />
     </div>
   );
 }

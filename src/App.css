@@ -3,3 +3,26 @@
     height:100vh;
     /* background-color: lightblue; */
 }
+
+/* Add these projects styles to the projects css page if possible */
+.projects {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.project {
+    width:25%;
+    margin: 0 3%;
+}
+
+/* these are tech stack styles */
+
+.techWrapper {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.tech {
+    width:40%;
+    margin:0 3%;
+}
