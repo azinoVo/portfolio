@@ -5,12 +5,13 @@ const Projects = () => {
     return (
         <>
         <h2>Projects</h2>
+        {/* <img src={require('../../assets/RoamlyResized.png')} alt=''/> */}
         <div className='projects'>
             {projectsList.map(project => {
                 return(
                     <div className='project'>
-                        <p>{project.name}</p>
-                        <img src="" alt="project here"/>
+                        <h3>{project.name}</h3>
+                        <img src={require(`../../assets/${project.picture}.png`)} alt="project here"/>
                         <ul>
                             {project["tech-stack"].map(tech => {
                                 return <li>{tech}</li>

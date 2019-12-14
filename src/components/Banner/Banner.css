@@ -1,16 +1,16 @@
 .banner-wrapper {
-    padding:1%;
+    padding:2%;
 }
 
 .banner {
-    width:50%;
+    width:60%;
     margin:0 auto;
     display:flex;
 }
 
 .banner img {
     border-radius: 100%;
-    width:25%;
+    width:30%;
     margin-right: 5%;
 }
 
