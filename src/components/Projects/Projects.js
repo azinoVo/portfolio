@@ -19,6 +19,8 @@ const Projects = () => {
                                     })}
                                 </ul>
                                 <p>{project.description}</p>
+                                {project.landing && <a href={project.landing} target="_blank" rel="noopener noreferrer">Landing</a>}
+                                {project.github && <a href={project.github} target="_blank" rel="noopener noreferrer">Github</a>}
                             </div>
                         </div>
                     </div>

@@ -3,35 +3,42 @@ const projectsList = [
         "name": "Roamly",
         "picture": "RoamlyResized",
         "tech-stack": ["React Hooks", "CSS Modules", "NodeJS", "Express", "PostgreSQL", "Knex",  "GraphQL", "Travis CI", "Analytics", "OAuth", "Google API"],
-        "description": "Travel application that allows users to search, view, favorite, and un-favorite attractions for a particular destination. Favorite attractions are added to a user profile associated with Google Login."
-
+        "description": "Travel application that allows users to search, view, favorite, and un-favorite attractions for a particular destination. Favorite attractions are added to a user profile associated with Google Login.",
+        "landing": "https://roamly.app/",
+        "github": "https://github.com/labs14-travel-website/frontend"
     },
     {
         "name": "Gigapet",
         "picture": "GigapetResized",
-        "tech-stack": ["html", "css", "JS"],
-        "description": "Insert description"
-
+        "tech-stack": ["React Class", "Redux", "React Router", "Styled Components", "JSON Web Tokens"],
+        "description": "Healthy eating application for parents who want to track what their children are consuming as well as calorie count. Parents may add children, add and edit food/drink items for each child, and search for items depending on criteria such as time or type. Anyone that uses the application will be able to play the secret Dragon game which promotes healthy eating.",
+        "landing": "https://gigapetapp.netlify.com/signUp",
+        "github": "https://github.com/gigapet-eating-log/gigapet-FE"
     },
     {
         "name": "FoodieFun",
         "picture": "FoodieFunResized",
         "tech-stack": ["html", "css", "JS"],
-        "description": "Insert description"
-
+        "description": "Insert description",
+        "landing": "",
+        "github": ""
     },
     {
         "name": "D&D Encounter Generator",
         "picture": "DNDResized",
         "tech-stack": ["html", "css", "JS"],
-        "description": "Insert description"
+        "description": "Insert description",
+        "landing": "",
+        "github": ""
 
     },
     {
         "name": "Map Visualizer",
         "picture": "visualResized",
         "tech-stack": ["html", "css", "JS"],
-        "description": "Insert description"
+        "description": "Insert description",
+        "landing": "",
+        "github": ""
 
     }
 ]
