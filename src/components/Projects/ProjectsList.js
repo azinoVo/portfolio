@@ -2,8 +2,8 @@ const projectsList = [
     {
         "name": "Roamly",
         "picture": "RoamlyResized",
-        "tech-stack": ["html", "css", "JS"],
-        "description": "Insert description"
+        "tech-stack": ["React Hooks", "CSS Modules", "NodeJS", "Express", "PostgreSQL", "Knex",  "GraphQL", "Travis CI", "Analytics", "OAuth", "Google API"],
+        "description": "Travel application that allows users to search, view, favorite, and un-favorite attractions for a particular destination. Favorite attractions are added to a user profile associated with Google Login."
 
     },
     {
