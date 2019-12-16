@@ -12,6 +12,7 @@ function App() {
       {/* <Nav /> */}
       <TechStack />
       <Projects />
+      <footer>Copyright 2019 Nguyen Vo</footer>
     </div>
   );
 }

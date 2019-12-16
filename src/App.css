@@ -16,7 +16,8 @@
 .project {
     width:90%;
     margin: 0 1%;
-    padding: 1%;
+    padding: 2%;
+    border-bottom: 1px solid gray;
 }
 
 /* these are tech stack styles */
@@ -31,7 +32,29 @@
     margin:0 3%;
 }
 
+.project-info {
+    display:flex;
+    justify-content: space-around;
+}
+
+.project-info img {
+    width: 50%;
+    border: 1px solid black;
+    padding:2%;
+}
+
+.right-side {
+    display:flex;
+    flex-flow:column;
+    justify-content: space-around;
+}
+
 h2 {
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid black;
     padding: 1%;
+}
+
+footer {
+    text-align:center;
+    padding-top:1%;
 }

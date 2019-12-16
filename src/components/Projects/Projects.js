@@ -11,13 +11,17 @@ const Projects = () => {
                 return(
                     <div className='project'>
                         <h3>{project.name}</h3>
-                        <img src={require(`../../assets/${project.picture}.png`)} alt="project here"/>
-                        <ul>
-                            {project["tech-stack"].map(tech => {
-                                return <li>{tech}</li>
-                            })}
-                        </ul>
-                        <p>{project.description}</p>
+                        <div className='project-info'>
+                            <img src={require(`../../assets/${project.picture}.png`)} alt="project here"/>
+                            <div className='right-side'>
+                                <ul>
+                                    {project["tech-stack"].map(tech => {
+                                        return <li>{tech}</li>
+                                    })}
+                                </ul>
+                                <p>{project.description}</p>
+                            </div>
+                        </div>
                     </div>
                 )
             })}
