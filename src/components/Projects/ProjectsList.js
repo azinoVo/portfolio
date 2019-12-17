@@ -2,7 +2,7 @@ const projectsList = [
     {
         "name": "Roamly",
         "picture": "RoamlyResized",
-        "tech-stack": ["React Hooks", "CSS Modules", "NodeJS", "Express", "PostgreSQL", "Knex",  "GraphQL", "Travis CI", "Analytics", "OAuth", "Google API"],
+        "tech-stack": ["React Hooks", "CSS Modules", "NodeJS", "Express", "PostgreSQL", "Knex",  "GraphQL", "Travis CI", "Analytics", "OAuth", "Google API", "Jest", "Enzyme", "Cypress"],
         "description": "Travel application that allows users to search, view, favorite, and un-favorite attractions for a particular destination. Favorite attractions are added to a user profile associated with Google Login.",
         "landing": "https://roamly.app/",
         "github": "https://github.com/labs14-travel-website/frontend"
@@ -18,27 +18,27 @@ const projectsList = [
     {
         "name": "FoodieFun",
         "picture": "FoodieFunResized",
-        "tech-stack": ["html", "css", "JS"],
-        "description": "Insert description",
-        "landing": "",
-        "github": ""
+        "tech-stack": ["React Class", "Redux", "CSS", "REST", "NodeJS", "Express", "SQLite3", "Knex", "JSON Web Tokens"],
+        "description": "Restaurant review application that uses a REST-ful backend to manipulate data via CRUD operations.",
+        "landing": "https://foodiefun.netlify.com/",
+        "github": "https://github.com/foodie-fun/FFBE"
     },
     {
         "name": "D&D Encounter Generator",
         "picture": "DNDResized",
-        "tech-stack": ["html", "css", "JS"],
-        "description": "Insert description",
-        "landing": "",
-        "github": ""
+        "tech-stack": ["React Class", "Redux", "CSS", "Styled Components"],
+        "description": "Quality of life application that allows dungeon masters of Dungeons and Dragons to generate encounter creatures as well as keep track of turn order. Built by six developers over three days as part of a Hackathon event.",
+        "landing": "https://5e-encounters.netlify.com/",
+        "github": "https://github.com/DuckEverlasting/Random-Character-Generator"
 
     },
     {
         "name": "Map Visualizer",
         "picture": "visualResized",
-        "tech-stack": ["html", "css", "JS"],
+        "tech-stack": ["React Hooks", "Styled Components"],
         "description": "Insert description",
-        "landing": "",
-        "github": ""
+        "landing": "https://mapvisual.netlify.com",
+        "github": "https://github.com/BW-Treasure-Hunt-Team-III/visual"
 
     }
 ]
