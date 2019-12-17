@@ -36,7 +36,7 @@ const projectsList = [
         "name": "Map Visualizer",
         "picture": "visualResized",
         "tech-stack": ["React Hooks", "Styled Components"],
-        "description": "Insert description",
+        "description": "A simple graph visualization of data coming from the backend provided by Lambda School as part of the Treasure Hunt Build Week.",
         "landing": "https://mapvisual.netlify.com",
         "github": "https://github.com/BW-Treasure-Hunt-Team-III/visual"
 
