@@ -2,7 +2,7 @@ const projectsList = [
     {
         "name": "Roamly",
         "picture": "RoamlyResized",
-        "tech-stack": ["React Hooks", "CSS Modules", "NodeJS", "Express", "PostgreSQL", "Knex",  "GraphQL", "Travis CI", "Analytics", "OAuth", "Google API", "Jest", "Enzyme", "Cypress"],
+        "tech-stack": ["React Hooks, CSS Modules", "NodeJS, Express, PostgreSQL, Knex, GraphQL", "Travis CI", "FullStory Analytics, Google Analytics, Heap Analytics", "OAuth with Google Sign-In", "Google API", "Jest, Enzyme, Cypress"],
         "description": "Travel application that allows users to search, view, favorite, and un-favorite attractions for a particular destination. Favorite attractions are added to a user profile associated with Google Login.",
         "landing": "https://roamly.app/",
         "github": "https://github.com/labs14-travel-website/frontend"
@@ -18,7 +18,7 @@ const projectsList = [
     {
         "name": "FoodieFun",
         "picture": "FoodieFunResized",
-        "tech-stack": ["React Class", "Redux", "CSS", "REST", "NodeJS", "Express", "SQLite3", "Knex", "JSON Web Tokens"],
+        "tech-stack": ["React Class", "Redux", "CSS", "REST API", "NodeJS, Express, Knex, SQLite3", "JSON Web Tokens"],
         "description": "Restaurant review application that uses a REST-ful backend to manipulate data via CRUD operations.",
         "landing": "https://foodiefun.netlify.com/",
         "github": "https://github.com/foodie-fun/FFBE"

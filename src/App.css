@@ -1,3 +1,8 @@
+#root {
+    background-color: #FFFAFA;
+    /* background-color: #F0FFFF; */
+}
+
 .App {
     max-width: 80%;
     height:auto;
@@ -40,24 +45,44 @@
 .project-info img {
     width: 50%;
     border: 1px solid black;
-    padding:1%;
+    padding:0.5%;
     margin-right: 2%;
+    background-color: white;
 }
 
-.right-side {
+.right-side a {
+    padding: 0 3%;
+}
+
+/* .right-side {
     display:flex;
     flex-flow:column;
     justify-content: space-around;
-}
+} */
+
+/* .right-side ul {
+    padding-top: 1px;
+} */
 
 h2 {
     border-bottom: 2px solid black;
-    padding: 1%;
+    padding: 0.5%;
 }
 
+h4 {
+    margin: 0;
+    border-bottom: 1px solid gray;
+    padding:0.5%;
+}
 
+h2:hover {
+    background-image: linear-gradient(to right, purple , gold, green);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
 
 footer {
     text-align:center;
-    padding-top:1%;
+    padding-top:1.5%;
 }

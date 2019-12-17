@@ -8,7 +8,7 @@ const TechStack = () => {
         <div className='techWrapper'>
             {TechStackList.map(tech => {
                 return (
-                    <div className='tech'>
+                    <div key={tech.name} className='tech'>
                         <h3>{tech.name}</h3>
                         <p>{tech.description}</p>
                     </div>

@@ -20,3 +20,10 @@
 .banner .description p {
     font-size:1.5rem;
 }
+
+.location:hover {
+    background-image: linear-gradient(to right, purple , gold, green);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
