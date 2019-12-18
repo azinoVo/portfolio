@@ -9,7 +9,7 @@ const Projects = () => {
             {projectsList.map(project => {
                 return(
                     <div className='project'>
-                        <h3>{project.name}</h3>
+                        <h3><a href={project.landing} target="_blank" rel="noopener noreferrer">{project.name}</a></h3>
                         <div className='project-info'>
                             <img src={require(`../../assets/${project.picture}.png`)} alt={project.name}/>
                             <div className='right-side'>
