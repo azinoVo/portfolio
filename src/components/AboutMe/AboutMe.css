@@ -1,0 +1,18 @@
+.scroll {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bioWrapper {
+    width: 60%;
+}
+
+@media (max-width: 1000px) {
+    .bioWrapper {
+        width: 100%;
+    }
+}
+
+.scroll a {
+    color:black;
+}

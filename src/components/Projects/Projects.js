@@ -4,7 +4,7 @@ import projectsList from './ProjectsList';
 const Projects = () => {
     return (
         <>
-        <h2>Projects</h2>
+        <h2 id='projectsHeader'>Projects</h2>
         <div className='projects'>
             {projectsList.map(project => {
                 return(
