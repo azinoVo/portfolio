@@ -4,7 +4,8 @@
 }
 
 .bioWrapper {
-    width: 60%;
+    width: 55%;
+    padding-left: 3%;
 }
 
 @media (max-width: 1000px) {
