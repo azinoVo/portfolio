@@ -2,10 +2,15 @@ import React from 'react';
 
 const Game = () => {
     return (
-        <div>
-            THIS IS THE GAME! It will be a semi-raid boss who will do skills and such depending on
-            certain situations. Users can create a character and help to take down the raid boss.
+        <>
+        <div className='boss'>
+            This will be where the raid boss will be placed along with its health and any status effects on it.
         </div>
+        <div className='user-info'>
+            This will store user information such as health from database and skills that the class has.
+        </div>
+        </>
+
     );
 }
 
