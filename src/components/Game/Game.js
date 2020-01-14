@@ -9,6 +9,9 @@ const Game = () => {
         <div className='user-info'>
             This will store user information such as health from database and skills that the class has.
         </div>
+        <div className='general-info'>
+            This will display game dialogue.
+        </div>
         </>
 
     );
