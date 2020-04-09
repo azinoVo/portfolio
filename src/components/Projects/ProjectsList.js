@@ -1,5 +1,13 @@
 const projectsList = [
     {
+        "name": "Cornucopia, Land of Excess",
+        "picture": "cornucopia",
+        "tech-stack": ["React Hooks", "Redux", "Piskel"],
+        "description": "Web-based game that allows for users to plant and harvest crops as well as play several mini-games. Click on the apple to access Cornucopia.",
+        "landing": "https://cornucopia.netlify.com/",
+        "github": "https://github.com/azinoVo/neopet_clone"
+    },
+    {
         "name": "Roamly",
         "picture": "RoamlyResized",
         "tech-stack": ["React Hooks, CSS Modules", "NodeJS, Express, PostgreSQL, Knex, GraphQL", "Travis CI", "FullStory Analytics, Google Analytics, Heap Analytics", "OAuth with Google Sign-In", "Google API", "Jest, Enzyme, Cypress"],
