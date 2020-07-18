@@ -9,7 +9,7 @@ const techStackList = [
     },
     {
         "name": "Testing",
-        "description":"Proficient in testing fundamentals: unit, integration, end to end, and API testing using Jest, Enzyme, Cypress, and Supertest. Currently mastering end to end testing using Cypress."
+        "description":"Proficient in testing fundamentals: unit, integration, end to end, and API testing using Jest, Enzyme, Cypress, and Supertest. Currently expanding knowledge on Cypress."
     },
     {
         "name": "Procedural",

@@ -13,7 +13,7 @@ function App() {
       <AboutMe />
       <TechStack />
       <Projects />
-      <footer>Copyright 2019 Nguyen Vo</footer>
+      <footer>Copyright 2020 Nguyen Vo</footer>
     </div>
   );
 }
