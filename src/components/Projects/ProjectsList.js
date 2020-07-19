@@ -2,7 +2,7 @@ const projectsList = [
     {
         "name": "Cornucopia, Land of Excess",
         "picture": "cornucopia",
-        "tech-stack": ["React Hooks", "Redux", "React Router", "CSS", "Piskel"],
+        "tech-stack": ["React Hooks", "Redux", "React Router", "CSS", "Testing: Jest/Enzyme", "Piskel"],
         "description": "Web-based game that allows for users to plant and harvest crops, fight monsters, and play several mini-games. Click on the apple to access Cornucopia.",
         "landing": "https://cornucopia.netlify.com/",
         "github": "https://github.com/azinoVo/neopet_clone"
